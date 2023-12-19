@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HubStore</title>
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/hub.css">
+    <script defer src="./js scr/void.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="wreapper">
+                <div class="hub">
+                    <div class="bg">
+                        <img src="./img/imgHub/BG.png">
+                    </div>
+                    <div class="hubup">
+                        <div class="logo">
+                            <img src="./img/imgHub/logo.png" id="logo">
+                        </div>
+                        <div class="catalig">
+                            <a href="#" class="catalog-button">КАТАЛОГ ИГР</a>
+                        </div>
+                        <div class="input">
+                            <img src="./img/imgHub/search2.png" class="search2">
+                            <div class="search-bar">
+                                <input type="text" placeholder="Поиск...">
+                            </div>
+                        </div>
+                        <div class="vhod">
+                            <a href="#" id="showLoginFrom" class="vhod-button">ВОЙТИ</a>
+                        </div>
+                        <div class="log">
+                            
+                            <div class="heart">
+                                <a href="#" class="image-container"><img src="./img/imgHub/heart.png"></a>
+                            </div>
+                            <div class="basket">
+                                <a href="#" class="image-container"><img src="./img/imgHub/basket.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hubcenter">
+                        <div class="leftside">
+                            <div class="svap">
+                                <a href="#" class="up"><img src="./img/imgHub/up.png" class="upp"></a>
+                                <img src="./img/imgHub/palcaup.png" class="palcaupp">
+                                <a href="" class="down"><img src="./img/imgHub/down.png" class="downn"></a>
+                            </div>
+                            <div class="squaddd">
+                                <h1 class="squad">SQUAD</h1>
+                                <a href="#" class="corzina-button">В КОРЗИНУ</a>
+                            </div>
+                        </div>
+                        <div class="cataloggame">
+                            <div class="svap2">
+                                <a href="#" class="upu"><img src="./img/imgHub/up.png" class="uop"></a>
+                                <img src="./img/imgHub/palcadw.png" class="palcadw">
+                                <a href="#" class="dow"><img src="./img/imgHub/down.png"></a>
+                            </div>
+                            <div class="gamescat">
+                                <a href="./daysgone.html" class="dayz"><img src="./img/imgHub/daysgone.png"></a>
+                                <a href="./dark.html" class="darck"><img src="./img/imgHub/darksuls.png"></a>
+                                <a href="./eval.html" class="rez"><img src="./img/imgHub/rez.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hubcennij">
+                        <div class="dos">
+                            <img src="./img/imgHub/dosa.png">
+                        </div>
+                        
+                        <div class="cotakog">
+                            <div class="buttons">
+                                <button id="button1"  class="active" onclick="showContent(1)">НОВИНКИ</button>
+                                <button id="button2"  onclick="showContent(2)">ЛИДЕРЫ ПРОДАЖ</button>
+                                <button id="button3"  onclick="showContent(3)">ПОСЛЕДНИЕ ПОСТУПЛЕНИЯ</button>
+                                <button id="button4"  onclick="showContent(4)">ПРЕДЗАКАЗЫ</button>
+                            </div>
+                            <div id="content1" class="content active">
+                                <div class="cataloa">
+                                    <img src="./img/imgHub/catalog.png">
+                                </div>
+                                <div class="gameee">
+                                    <a href="./sword.html">
+                                        <img src="./img/imgHub/mexch.png">
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="content2" class="content">
+                                <div class="liders">
+                                    <img src="./img/imgHub/liders.png">
+                                </div>
+                            </div>
+                            <div id="content3" class="content">
+                                <div class="lastpost">
+                                    <img src="./img/imgHub/now.png">
+                                </div>
+                            </div>
+                            <div id="content4" class="content">
+                                <div class="predz">
+                                    <img src="./img/imgHub/predzak.png">
+                                </div>
+                            </div>
+                            <div class="smotr">
+                                <a href="#" class="smotr-button">CМОТРЕТЬ ВСЕ</a>
+                            </div>
+                        </div>
+                        <div class="viber">
+                            <div class="nash">
+                                <h2>НАШ ВЫБОР</h2>
+                            </div>
+                            <div class="veber">
+                                <img src="./img/imgHub/viber.png">
+                            </div>
+                            <div class="svap3">
+                                <a href="#" class="upui"><img src="./img/imgHub/up.png" class="uop"></a>
+                                <img src="./img/imgHub/palcaup.png" class="palcadwu">
+                                <a href="#" class="dowu"><img src="./img/imgHub/down.png"></a>
+                            </div>
+                        </div>
+                        <div class="blog">
+                            <h3 class="svrj">СВЕЖЕЕ В БЛОГЕ</h3>
+                            <div class="rozigrish">
+                                <img src="./img/imgHub/rozblog.png">
+                            </div>
+                            <div class="svej-bu">
+                                <a href="#" class="svej-button">ВСЕ ПУБЛИКАЦИИ</a>
+                            </div>
+                        </div>
+                        <div class="end">
+                            <div class="endd">
+                                <img src="./img/imgHub/end.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+    <script src="./js scr/buttons.js"></script>
+    <script src="./js scr/kontant.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

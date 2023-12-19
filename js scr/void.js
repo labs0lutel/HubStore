@@ -1,0 +1,1 @@
+document.querySelector("body > header > div > div.b-popup.js-modal.hide.b-popup--small.show > div > div.b-popup__content.js-modal-content")

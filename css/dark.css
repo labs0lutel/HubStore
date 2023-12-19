@@ -1,0 +1,382 @@
+/* inter-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inter-v13-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/inter-v13-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-800 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/inter-v13-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+body{
+    background: #141111;
+}
+
+#logo{
+    position: absolute;
+    top: 89px;
+    left: 120px;
+}
+
+.catalig{
+    position: absolute;
+    top: 98px;
+    left: 350px;
+}
+
+.catalog-button {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.3s;
+    font-family: 'Inter';
+    font-weight: 800;
+}
+
+.catalog-button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+}
+
+.input{
+    position: absolute;
+    top: 98px;
+    left: 550px;
+}
+
+.search-bar {
+    background-color: rgba(171, 164, 164, 0.53);
+    border-radius: 50px;
+    padding: 10px;
+    width: 900px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    margin-top: 0px;
+}
+
+.search-bar input[type="text"] {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #000;
+    width: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+}
+
+.search2{
+    position: absolute;
+    top: 7px;
+    left: 875px;
+}
+
+.vhod{
+    position: absolute;
+    top: 98px;
+    left: 1500px;
+}
+
+.vhod-button {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.3s;
+    font-family: 'Inter';
+    font-weight: 800;
+}
+
+.vhod-button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+}
+
+.heart{
+    position: absolute;
+    top: 100px;
+    left: 1650px;
+}
+
+.basket{
+    position: absolute;
+    top: 100px;
+    left: 1750px;
+}
+
+.image-container {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.image-container img {
+    transition: transform 0.3s ease;
+}
+
+.image-container:hover img {
+    transform: scale(1.2);
+}
+
+.firstline{
+    position: absolute;
+    top: 200px; 
+    left: 110px;
+}
+
+.glav{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 205px;
+    left: 760px;
+}
+
+.secondline{
+    position: absolute;
+    top: 200px; 
+    left: 830px;
+}
+
+.catal{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 205px;
+    left: 870px;
+}
+
+.tripleline{
+    position: absolute;
+    top: 200px; 
+    left: 970px;
+}
+
+.dg{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 205px;
+    left: 1000px;
+}
+
+.lastline{
+    position: absolute;
+    top: 200px; 
+    left: 1170px;
+}
+
+.logsd{
+    position: absolute;
+    top: 300px;
+    left: 153px;
+}
+
+.infors{
+    position: absolute;
+    top: 285px;
+    left: 600px;
+}
+
+.corzina-button{
+    background-color: #FBBB43;  
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 9px 15px;
+    border: 2px solid #FBBB43;   
+    border-radius: 11px;
+    font-family: 'Inter';
+    font-weight: 800;
+    font-style: normal;
+    font-size: 16px;
+    position: absolute;
+    top: 455px;
+    left: 605px;
+}
+
+.about{
+    position: relative;
+    top: 70px;
+    left: 195px;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid #FBBB43;
+    color: #FBBB43;
+    opacity: 0.3;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -420px;
+    left: 600px;
+}
+
+.active {
+    opacity: 1;
+    color: #fff;
+}
+
+.content {
+    display: none;
+}
+
+.active {
+    display: block;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.slider{
+    width:  700px;
+    
+    height: 450px;
+    margin: 500px;
+    margin-top: -390px;
+    left: 95px;
+    position: relative;
+    overflow: hidden;
+}
+.slider .list{
+    position: absolute;
+    width: max-content;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    transition: 1s;
+    
+    
+}
+.slider .list img{
+    width: 550px;
+    height: 450;
+    object-fit: cover;
+    margin-left: 25px;
+    border-radius: 15px;
+}
+.slider .buttons{
+    position: absolute;
+    top: 30%;
+    left: 1%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.slider .buttons button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff5;
+    color: #fff;
+    border: none;
+    font-family: monospace;
+    font-weight: bold;
+}
+.slider .dots{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    top: 250px;
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.slider .dots li{
+    list-style: none;
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+    margin: 5px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.slider .dots li.active{
+    width: 30px;
+}
+@media screen and (max-width: 768px){
+    .slider{
+        height: 400px;
+    }
+}
+
+
+
+.contao{
+    top: 500px;
+}
+
+.pohoz{
+    position: relative;
+    margin-top: -700px;
+    left: 170px;
+}
+
+.oso{
+    position: relative;
+    float: right;
+    margin-top: -290px;
+    right: 235px;
+}
+
+.endd{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 2950px;
+}
